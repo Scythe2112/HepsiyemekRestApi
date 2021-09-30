@@ -9,8 +9,8 @@ namespace HepsiyemekRestApi.Services
     public interface IProductService
     {
         public Product Get(string id);
-        public Product Create(Product category);
-        public Product Update(string id, Product category);
-        public Product Delete(string id);
+        public void Create(Product category);
+        public void Update(string id, Product category);
+        public void Delete(string id);
     }
 }

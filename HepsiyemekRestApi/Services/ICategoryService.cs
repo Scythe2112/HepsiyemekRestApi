@@ -9,8 +9,8 @@ namespace HepsiyemekRestApi.Services
     public interface ICategoryService
     {
         public Category Get(string id);
-        public Category Create(Category category);
-        public Category Update(string id, Category category);
-        public Category Delete(string id);
+        public void Create(Category category);
+        public void Update(string id, Category category);
+        public void Delete(string id);
     }
 }

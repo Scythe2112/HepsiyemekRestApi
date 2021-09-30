@@ -1,0 +1,9 @@
+﻿Visual Studio 2019
+.Net core 3.1 (SDK Kurulumu gerekebilir)
+NewtonsoftJson(3.1.6)
+StackExchangeRedis (5.0.1, startup.cs içinde tanımlama yapılmalıdır)
+MongoDB.Drive (2.12.4, appsetting.json içindeki connectionstring, collection name, database name tanımlamaları yapılmaldır.)
+
+*Postman Collection import adresi :
+https://www.getpostman.com/collections/1d2b4631258d3bb75eb6
+
